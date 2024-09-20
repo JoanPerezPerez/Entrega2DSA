@@ -5,7 +5,7 @@ public class Manager extends User {
     private List<Project> managedProjects;
 
     public Manager(String name) {
-        super(name, "Manager");
+        super(name, RoleNames.MANAGER);
         this.managedProjects = new ArrayList<>();
     }
 

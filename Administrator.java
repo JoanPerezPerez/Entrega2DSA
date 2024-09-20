@@ -5,7 +5,7 @@ public class Administrator extends User {
     private List<User> users;
 
     public Administrator(String name) {
-        super(name, "Administrator");
+        super(name, RoleNames.ADMINISTRATOR);
         this.users = new ArrayList<>();
     }
 

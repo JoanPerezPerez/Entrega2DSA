@@ -6,7 +6,7 @@ public class Programmer extends User {
     private List<Task> assignedTasks;
 
     public Programmer(String name) {
-        super(name, "Programmer");
+        super(name, RoleNames.PROGRAMMER);
         this.assignedProjects = new ArrayList<>();
         this.assignedTasks = new ArrayList<>();
     }
